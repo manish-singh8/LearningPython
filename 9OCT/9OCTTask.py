@@ -1,0 +1,17 @@
+l=list()
+input1=int(input('Enter input 1: '))
+l.append(input1)
+input2=int(input('Enter input 2: '))
+l.append(input2)
+input3=int(input('Enter input 3: '))
+l.append(input3)
+input4=int(input('Enter duplicate input 4: '))
+l.append(input4)
+input5=int(input('Enter duplicate input 5: '))
+l.append(input5)
+
+
+print('List before duplicates removal is\n{}'.format(l))
+l=list(set(l))
+print('List after duplicates removal is\n{}'.format(l))
+print(type(l))
